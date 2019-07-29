@@ -1,0 +1,21 @@
+file = ('smart.txt','r')
+
+count = dict()
+
+
+for line in file:
+  for word in line.split():
+    count[word.lower()] = count.get(word.lower(), 0 ) +1
+
+
+lst = list
+
+for (k,v) in word.items():
+  print(v , k)
+
+lst.sort()
+lst.reverse()
+
+
+for i in range(10):
+  print(lst[i])
